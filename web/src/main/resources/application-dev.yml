@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+
+spring:
+  cloud:
+    consul:
+      discovery:
+        ip-address: web
+        enabled: true
+        health-check-path:
+      host: localhost
+      port: 8500
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/weather
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
