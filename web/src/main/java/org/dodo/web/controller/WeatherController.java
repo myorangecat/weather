@@ -19,6 +19,19 @@ public class WeatherController {
         if(StringUtils.isBlank(id)){
             return "数据不能为空";
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
     return "index.html";
     }
 }
