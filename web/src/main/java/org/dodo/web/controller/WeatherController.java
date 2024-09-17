@@ -20,18 +20,6 @@ public class WeatherController {
             return "数据不能为空";
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
     return "index.html";
     }
 }

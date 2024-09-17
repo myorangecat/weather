@@ -23,17 +23,17 @@ class WebApplicationTests {
     @Test
     void contextLoads() {
 
-        while (true) {
-            threadPoolTaskExecutor.execute(() -> {
-                String result = HttpUtil.post("https://www.google.com.hk/", "");
-                log.info("请求结果：{}",result);
-                JSONObject jsonObject = JSONObject.parseObject(result);
-                log.info("JSON 结果：{}", jsonObject);
-
-            });
-
-
-        }
+//        while (true) {
+//            threadPoolTaskExecutor.execute(() -> {
+//                String result = HttpUtil.post("https://www.google.com.hk/", "");
+//                log.info("请求结果：{}",result);
+//                JSONObject jsonObject = JSONObject.parseObject(result);
+//                log.info("JSON 结果：{}", jsonObject);
+//
+//            });
+//
+//
+//        }
 
 
 
